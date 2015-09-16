@@ -1,6 +1,6 @@
-table.germania {
+div.germania {
     width: 1000px;
     padding: 25px;
     border: 30px navy;
-    margin: 25px;
+    margin: 0 auto;
 }
