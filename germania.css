@@ -20,9 +20,10 @@ p {
     font-style: normal;
     color: #00050A;
     text-align: justify;
-    text-indent: 25px;
+    text-indent: 35px;
+    padding-left: 15px;
 }
-p::first-letter {
+p:first-letter {
     font-size: 200%;
-    color: #8A2BE2;
+    color: #000066;
 }
