@@ -1,7 +1,15 @@
-div.germania {
+div.fundal {
     width: 1000px;
     padding: 20px;
     border: 20px solid #008AB8;
     margin: 0 auto;
     background-color: #EBEBF5;
+}
+h1 {
+    color: #003399;
+    text-align: center;
+}
+p {
+    color: #00050A;
+    text-align: justify;
 }
