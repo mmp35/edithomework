@@ -9,7 +9,15 @@ h1 {
     color: #003399;
     text-align: center;
 }
+h3 {
+    color: #003399;
+    text-align: center;
+    text-decoration: underline;
+}
 p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
     color: #00050A;
     text-align: justify;
+    text-indent: 25px;
 }
