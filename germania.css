@@ -20,7 +20,7 @@ p {
     font-style: normal;
     color: #00050A;
     text-align: justify;
-    text-indent: 5px;
+    text-indent: 25px;
 }
 p:first-letter {
     font-size: 200%;
