@@ -14,7 +14,7 @@ h3 {
     color: #FFFFFF;
     text-align: left;
 }
-div {
+div.places {
     width: 700px;
     height: 200px;
     background-color: #005C00;
