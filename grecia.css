@@ -11,19 +11,21 @@ h1 {
     margin-top:0;
 }
 h3 {
-    color: #003399;
+    color: #FFFFFF;
     text-align: left;
-    text-decoration: underline;
 }
 div {
-    
+    width: 700px;
+    height: 200px;
+    background-color: #005C00;
+    border: none;
     
 }
 p {
     font-family: "Times New Roman", Times, serif;
     font-size: 1em;
     font-style: normal;
-    color: #00050A;
+    color: #FFFFFF;
     text-align: justify;
     text-indent: 35px;
 }
