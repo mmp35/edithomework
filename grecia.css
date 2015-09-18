@@ -15,9 +15,9 @@ h3 {
     text-align: left;
 }
 div.places {
-    width: 700px;
+    width: 100%;
     height: 200px;
-    background-color: #005C00;
+    background-color: #A35200;
     border: none;
 }
 p {
