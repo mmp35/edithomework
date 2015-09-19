@@ -13,6 +13,7 @@ h1 {
 h3 {
     color: #A32900;
     text-align: left;
+    vertical-align: text-top;
 }
 div.flori {
     width: 700px;
