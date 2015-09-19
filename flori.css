@@ -14,10 +14,10 @@ h3 {
     color: #FFFFFF;
     text-align: left;
 }
-div.tiptext {
-    width: 700px;
-    height: 300px;
-    background-color: #CC6600;
+div.flori {
+    width: 800px;
+    height: 250px;
+    background-color: #FFCC99;
     border: none;
     margin: 20px;
     padding: 20px;
@@ -26,12 +26,9 @@ p {
     font-family: "Times New Roman", Times, serif;
     font-size: 1em;
     font-style: normal;
-    color: #FFFFFF;
+    color: #663300;
     text-align: justify;
     text-indent: 35px;
 }
-p:first-letter {
-    font-size: 200%;
-    color: #FFFF99;
-}
+
 
