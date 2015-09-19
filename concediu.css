@@ -23,7 +23,7 @@ p {
     text-align: justify;
     text-indent: 35px;
 }
-p:first-letter {
+p::first-letter {
     font-size: 200%;
     color: #000066;
 }
