@@ -10,25 +10,21 @@ a:link    {
     color:dodgerblue; 
     background-color:transparent; 
     text-decoration:none
-    
 }
 a:visited {
     color:blueviolet; 
     background-color:transparent; 
     text-decoration:none
-    
 }
 a:hover   {
     color:aquamarine; 
     background-color:transparent; 
     text-decoration:underline
-    
 }
 a:active  {
     color:white; 
     background-color:transparent; 
     text-decoration:underline
-    
 }
 h1 {
     color: #003399;
@@ -52,4 +48,10 @@ p {
 p:first-letter {
     font-size: 200%;
     color: #000066;
+}
+img {
+    width: 304px;
+    height: 228px; 
+    float: left; 
+    margin-right: 15px;
 }
