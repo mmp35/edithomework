@@ -1,9 +1,9 @@
 #fundal {
     width: 1000px;
     padding: 20px;
-    border: 20px solid #FFDE36;
+    border: 20px solid #E68A2E;
     margin: 0 auto;
-    background-color: #FFFFD6;
+    background-color: #FFEBD6;
     box-shadow: 5px 5px 5px #999999;
 }
 a:link    {
@@ -36,7 +36,7 @@ h1 {
 div.flori {
     width: 700px;
     height: 200px;
-    background-color: #FFCC99;
+    background-color: #FFF5C2;
     border: none;
     margin: 20px;
     padding: 20px;
