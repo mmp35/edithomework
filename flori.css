@@ -4,13 +4,15 @@
     border: 20px solid #FFDE36;
     margin: 0 auto;
     background-color: #FFFFD6;
+    box-shadow: 5px 5px 5px #999999;
 }
 h1 {
     color: #A32900;
     text-align: center;
     margin-top:0;
+    text-shadow: 2px 2px 4px #000000;
 }
-h3 {
+font {
     color: #A32900;
     text-align: left;
     vertical-align: text-top;
