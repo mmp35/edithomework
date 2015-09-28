@@ -59,10 +59,6 @@ img.poza {
     height: 200px;
 }
 
-img.poza a:hover img {
-    border:2px solid #A34719;
-}
-
 p.locatie {
     text-align: center;
     font-weight: normal;
