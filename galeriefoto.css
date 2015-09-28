@@ -53,8 +53,8 @@ div.foto {
 }
 
 div.imagine {
-    margin: 5px;
-    border: 1px solid #ffffff;
+    margin: 10px;
+    border: none;
 }
 
 div.imagine a:hover img {
