@@ -62,3 +62,8 @@ img.poza {
 div.informatie{
     text-align: left;
 }
+
+p.locatie {
+    font-style: bold;
+    text-align: center;
+}
