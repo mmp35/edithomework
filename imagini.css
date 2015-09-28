@@ -1,11 +1,13 @@
 img.oras {
-        margin: 5px, 5px, 10px, 5px;
+        margin: 5px, 5px, 5px, 5px;
         padding: 10px;
+        align: center;
         
 }
 div {
         align-content: center;
 }
 p {
-        text-align: center;
+        text-align: left;
+        padding: 15px, 0px, 0px, 0px;
 }
