@@ -48,10 +48,30 @@ p:first-letter {
     font-size: 200%;
     color: #000066;
 }
-img.concediu {
-    width: 304px;
-    height: 228px; 
-    float: left; 
-    margin-right: 15px;
-    box-shadow: 5px 5px 5px #999999; 
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
+
+div.locatie {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    margin: 5px;
 }
