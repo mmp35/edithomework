@@ -4,9 +4,14 @@ img.oras {
         align: center;
         
 }
-div {
-        align-content: center;
+
+#fundal {
+    width: 1000px;
+    padding: 20px;
+    border: 1px;
+    margin: 0 auto;
 }
+
 p {
         text-align: left;
         padding: 15px, 0px, 0px, 0px;
