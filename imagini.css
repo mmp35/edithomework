@@ -1,5 +1,5 @@
 img.oras {
-        margin: 1px, 5px, 5px, 5px;
+        margin: 5px, 5px, 5px, 5px;
         padding: 10px;
         align: center;
         
@@ -15,5 +15,5 @@ div#fundal {
 p {
         text-align: left;
         font-weight: bold;
-        padding: 25px, 0px, 0px, 0px;
+        padding: 5px, 0px, 0px, 20px;
 }
