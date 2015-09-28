@@ -52,12 +52,14 @@ div.foto {
     display: inline;
 }
 
-div.imagine {
+img.poza {
     margin: 10px;
     border: none;
+    width: 300px;
+    height: 200px;
 }
 
-div.imagine a:hover img {
+img.poza a:hover img {
     border:2px solid #A34719;
 }
 
