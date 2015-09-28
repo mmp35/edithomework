@@ -7,7 +7,7 @@ div#fundal {
 
 img.oras {
         margin: 5px, 5px, 5px, 5px;
-        padding: 10px;
+        padding-bottom: 10px;
         align: center;
         
 }
@@ -15,5 +15,5 @@ img.oras {
 p.denumire {
         text-align: left;
         font-weight: bold;
-        padding: 0px, 0px, 0px, 30px;
+        margin-left: 10px;
 }
