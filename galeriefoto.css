@@ -31,25 +31,16 @@ h1 {
     text-align: center;
     margin-top:0;
 }
-h3 {
-    color: #003399;
-    text-align: left;
-    text-decoration: underline;
-}
+
 p {
     font-family: "Times New Roman", Times, serif;
     font-size: 1em;
     font-style: normal;
     color: #00050A;
-    text-align: justify;
-    text-indent: 35px;
-}
-p:first-letter {
-    font-size: 200%;
-    color: #000066;
+    text-align: center;
 }
 
-div.img {
+div.foto {
     margin: 5px;
     padding: 5px;
     border: 1px solid #0000ff;
@@ -59,13 +50,13 @@ div.img {
     text-align: center;
 }
 
-div.img img {
+div.imagine {
     display: inline;
     margin: 5px;
     border: 1px solid #ffffff;
 }
 
-div.img a:hover img {
+div.imagine a:hover img {
     border:1px solid #0000ff;
 }
 
