@@ -64,6 +64,5 @@ div.imagine a:hover img {
 div.locatie {
     text-align: center;
     font-weight: normal;
-    width: 120px;
-    margin: 5px;
+    padding: 20px, 20px;
 }
