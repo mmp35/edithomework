@@ -67,4 +67,5 @@ p.locatie {
     font-style: italic;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
