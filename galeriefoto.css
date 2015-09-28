@@ -60,10 +60,11 @@ img.poza {
 }
 
 div.informatie{
-    text-align: left;
+    text-align: center;
 }
 
 p.locatie {
+    font-style: italic;
     font-weight: bold;
     text-align: center;
 }
