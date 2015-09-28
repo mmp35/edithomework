@@ -43,11 +43,11 @@ p {
 }
 
 div.foto {
-    margin: 5px;
-    padding: 5px;
+    margin: 15px;
+    padding: 20px;
     border: 1px solid #CC0000;
-    height: 500;
-    width: 400;
+    height: 600;
+    width: 500;
     float: left;
     text-align: center;
 }
