@@ -1,0 +1,39 @@
+
+div {
+    width: 700px;
+    background-color: #FFFFEB;
+    border: none;
+    margin: 20px;
+    padding-bottom: 40px;
+    box-shadow: 5px 5px 5px #999999; 
+}
+h1{
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+#acasa{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+    font-style: bold;
+    color: #003300;
+    text-align: left;
+    padding: 5px 5px 5px 30px;
+}
+p.componente{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+    font-style: normal;
+    color: #003300;
+    text-align: justify;
+    text-indent: 40px;
+    padding: 5px 20px 20px 20px;
+}
+img.imagini {
+    width: 250px; 
+    height: 250px; 
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
