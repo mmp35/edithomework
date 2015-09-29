@@ -53,7 +53,7 @@ img {
     float: left;
     clear: left;
     width: 250px;
-    text-align: right;
+    text-align: left;
 }
 .mail input {
   display: inline-block;
