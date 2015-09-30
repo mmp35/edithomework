@@ -68,6 +68,8 @@ div.butoane input {
     margin: 20px;
     float: right;
     text-align: center;
+    color: #ffffff;
+    background-color: #CC6600;
     box-shadow: 3px 3px 3px #808080;
 }
 
