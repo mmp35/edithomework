@@ -65,8 +65,8 @@ div.butoane {
     display: inline;
     width: 100px;
     height: 30px;
-    margin: 20px;
-    float: right;
+    margin-left: 100px;
+    float: left;
     border: none;
     text-align: center;
     color: 	#ffffff;
