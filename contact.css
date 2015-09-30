@@ -43,14 +43,13 @@ p {
     padding: 2px 225px 5px 5px;
 }
 
-img {
-    width: 200px;
-    height: 200px;
-    float: right;
+div.campuri {
+    padding: 10px;
 }
 
 label {
     display: inline-block;
     width: 200px;
     text-align: right;
+    text-align: top;
 }
