@@ -61,8 +61,8 @@ div.campuri label {
     margin-right: 20px;
 }
 
-div.butoane input {
-    display: float;
+div.butoane {
+    display: inline;
     width: 100px;
     height: 30px;
     margin-left: 400px;
