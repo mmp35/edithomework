@@ -64,9 +64,10 @@ div.campuri label {
 div.butoane input {
     display: inline;
     width: 100px;
-    height: 20px;
+    height: 30px;
     margin: 20px;
     float: right;
+    text-align: center;
     box-shadow: 3px 3px 3px #808080;
 }
 
