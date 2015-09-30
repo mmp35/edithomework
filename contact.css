@@ -67,6 +67,7 @@ div.butoane input {
     height: 30px;
     margin-left: 400px;
     padding: 20px;
+    box-shadow: 5px 5px 5px #CCCCCC;
 }
 
 textarea {
