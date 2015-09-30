@@ -59,7 +59,7 @@
 				</p>
 				</div>
 				<p><b>Formular de contact</b></p>
-		              	<form action="mailto:magda.pall@yahoo.com" enctype="text/plain" method="post">
+		              	<form action="mailto:magda.pall@yahoo.com" enctype="text/plain" method="post" id="formular">
 		              	<div class="campuri">
 		                <label>Nume: </label><input type="text" name="Name" required />
 		                </div>
@@ -75,7 +75,7 @@
 		                <div class="butoane">
 		                <input id="bsubmit" type="submit" name="Submit" value="Trimite" />
 		                <input id="breset" type="reset" name="Reset" value="Sterge" />
-		                <input type="submit" name="cancel" value="Cancel" />
+		                <input type="submit" name="cancel" value="Cancel" onclick="return document.getElementById('formId').reset()"/>
 		                </div>
 		                </form>
 			</td>	
