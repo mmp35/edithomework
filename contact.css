@@ -60,3 +60,8 @@ label {
     font-weight: bold;
     margin-right: 20px;
 }
+
+textarea {
+    width: 100px;
+    height: 50px;
+}
