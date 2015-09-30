@@ -61,7 +61,7 @@ div.campuri label {
     margin-right: 20px;
 }
 
-#bsubmit input {
+div.butoane input {
     display: inline;
     width: 100px;
     height: 30px;
@@ -73,18 +73,7 @@ div.campuri label {
     background-color: #FF9900;
     box-shadow: 3px 3px 3px #808080;
 }
-#breset input {
-    display: inline;
-    width: 100px;
-    height: 30px;
-    float: right;
-    margin-right: 130px;
-    border: none;
-    text-align: center;
-    color: 	#ffffff;
-    background-color: #FF9900;
-    box-shadow: 3px 3px 3px #808080;
-}
+
 
 textarea {
     width: 500px;
