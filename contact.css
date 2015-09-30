@@ -61,13 +61,24 @@ div.campuri label {
     margin-right: 20px;
 }
 
-div.butoane input {
+#bsubmit input {
     display: inline;
     width: 100px;
     height: 30px;
-    margin: 10px;
+    margin: 20px;
     float: right;
-    margin-right: 140px;
+    border: none;
+    text-align: center;
+    color: 	#ffffff;
+    background-color: #FF9900;
+    box-shadow: 3px 3px 3px #808080;
+}
+#breset input {
+    display: inline;
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-right: 130px;
     border: none;
     text-align: center;
     color: 	#ffffff;
