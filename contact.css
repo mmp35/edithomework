@@ -61,11 +61,12 @@ div.campuri label {
     margin-right: 20px;
 }
 
-div.butoane {
+div.butoane input {
     display: inline-block;
     width: 100px;
     height: 30px;
     margin-left: 400px;
+    padding: 20px;
 }
 
 textarea {
