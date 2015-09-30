@@ -53,17 +53,17 @@ div.campuri input {
     height: 50px;
 }
 
-#butoane {
-    width: 50px;
-    height: 25px;
-}
-
-label {
+div.campuri label {
     display: inline-block;
     width: 200px;
     text-align: right;
     font-weight: bold;
     margin-right: 20px;
+}
+
+#butoane {
+    width: 50px;
+    height: 25px;
 }
 
 textarea {
