@@ -13,18 +13,18 @@ a:link    {
 a:visited {
     color:blueviolet; 
     background-color:transparent; 
-    text-decoration:none
+    text-decoration:none;
 }
 a:hover   {
     color:#663300; 
     background-color:transparent;     
-    text-decoration:underline
+    text-decoration:underline;
     
 }
 a:active  {
     color:white; 
     background-color:transparent; 
-    text-decoration:underline
+    text-decoration:underline;
 }
 h1 {
     color: #000066;
@@ -33,7 +33,7 @@ h1 {
 }
 
 #imagine {
-    width: 350px;
-    height: 250px;
+    width: 550px;
+    height: 400px;
     margin: 20px 30px 30px 20px;
 }
