@@ -48,14 +48,8 @@ img {
     float: right;
 }
 
-.mail label{
+label{
     display: inline-block;
-    float: left;
-    clear: left;
-    width: 250px;
-    text-align: left;
-}
-.mail input {
-  display: inline-block;
-  float: left;
+    width: 200px;
+    text-align: right;
 }
