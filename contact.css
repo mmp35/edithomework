@@ -61,9 +61,11 @@ div.campuri label {
     margin-right: 20px;
 }
 
-#butoane {
+div.butoane {
+    display: inline-block;
     width: 50px;
     height: 25px;
+    margin: 20px;
 }
 
 textarea {
