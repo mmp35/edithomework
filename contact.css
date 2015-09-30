@@ -65,7 +65,7 @@ div.butoane input {
     display: inline;
     width: 100px;
     height: 20px;
-    padding: 20px;
+    margin: 20px;
     float: right;
     box-shadow: 3px 3px 3px #808080;
 }
