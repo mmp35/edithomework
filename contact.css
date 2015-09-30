@@ -42,13 +42,14 @@ p {
     text-indent: 40px;
     padding: 2px 225px 5px 5px;
 }
+
 img {
     width: 200px;
     height: 200px;
     float: right;
 }
 
-label{
+label {
     display: inline-block;
     width: 200px;
     text-align: right;
