@@ -65,8 +65,9 @@ div.butoane input {
     display: inline;
     width: 100px;
     height: 30px;
+    padding: 30px;
     float: right;
-    box-shadow: 3px 3px 3px #CCCCCC;
+    box-shadow: 3px 3px 3px #808080;
 }
 
 textarea {
