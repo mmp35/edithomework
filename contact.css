@@ -48,9 +48,14 @@ div.campuri {
     padding: 10px;
 }
 
+div.campuri input {
+    width: 400px;
+    height: 50px;
+}
+
 #butoane {
-    width: 20px;
-    height: 15px;
+    width: 50px;
+    height: 25px;
 }
 
 label {
@@ -62,6 +67,6 @@ label {
 }
 
 textarea {
-    width: 100px;
-    height: 50px;
+    width: 400px;
+    height: 200px;
 }
