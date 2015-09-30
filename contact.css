@@ -65,7 +65,7 @@ div.butoane input {
     display: inline-block;
     width: 50px;
     height: 25px;
-    margin: 20px;
+    margin-right: 0px;
 }
 
 textarea {
