@@ -47,7 +47,7 @@ button {
     margin: 5px 200px;
 }
 button:hover {
-    box-shadow: 10px 10px 10px #999999;
+    box-shadow: 15px 15px 15px 15px #999999;
     background-color: #ffffff;
     border: 1px;
     color: #333399;
