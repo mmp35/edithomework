@@ -46,16 +46,8 @@
 			<td>
 				<center><h1><i>Curs Webdesign - Seminarii</i></h1></center>
 				<img id="imagine" src="homework.png" alt="Tema de casa">
-				
-				<button type="button" onclick="displayDate()" align="center">Data si ora</button>
 				<br />
-				<script>
-				function displayDate() {
-				 document.getElementById("timp").innerHTML = Date();
-				}
-				</script>
-				<p id="timp"></p>
-			
+				<button onclick="this.innerHTML=Date()">Data si ora</button>
 			</td>
 		</tr>
 	</table>
