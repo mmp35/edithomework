@@ -17,10 +17,9 @@ a:visited {
     text-decoration:none;
 }
 a:hover   {
-    color:#663300; 
-    background-color:transparent;     
+    color:aquamarine; 
+    background-color:transparent; 
     text-decoration:underline;
-    
 }
 a:active  {
     color:white; 
@@ -28,8 +27,7 @@ a:active  {
     text-decoration:underline;
 }
 h1 {
-    color: #A32900;
+    color: #003399;
     text-align: center;
     margin-top:0;
-    text-shadow: 1px 1px 1px #333333;
 }
