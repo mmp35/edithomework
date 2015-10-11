@@ -95,7 +95,8 @@
 					<script>
 					var calculeaza = function() {
 						var cantitati = document.getElementsByClassName("cantitate");
-						var total = cantitati[0].innerHTML + cantitati[1].innerHTML +cantitati[2].innerHTML +cantitati[3].innerHTML +cantitati[4].innerHTML;
+						var total = 0;
+						total = total + cantitati[0].innerHTML + cantitati[1].innerHTML +cantitati[2].innerHTML +cantitati[3].innerHTML +cantitati[4].innerHTML;
 						document.getElementById("total").innerHTML = total;
 					}
 					</script>
