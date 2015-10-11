@@ -47,7 +47,18 @@
 				<center><h1><i>Curs Webdesign - Seminarii</i></h1></center>
 				<img id="imagine" src="homework.png" alt="Tema de casa">
 				<br />
-				<button onclick="this.innerHTML=Date()">Data si ora</button>
+				<button id="butondata" onclick="butontext()">Data si ora</button>
+				<script type="text/javascript">
+				var butontext = function () {
+					if (document.getElementById("butondata").innerHTML=="Data si ora") 
+						{
+					document.getElementById("butondata").innerHTML=Date();
+						}
+					else    {
+					document.getElementById("butondata").innerHTML="Data si ora";	
+						}
+							    }
+				</script>
 			</td>
 		</tr>
 	</table>
