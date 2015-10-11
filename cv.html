@@ -45,8 +45,21 @@
 			<td>
 				<center>
 					<h1>Curriculum Vitae</h1></center>
-						<button onclick="getElementById('nota').innerHTML='Consider datele personale ca fiind confidentiale, prin urmare am utilizat date fictive pentru aceasta pagina'">Nota</button>
+					<button id="butonnota" onclick="butontext()">Nota</button>
 						<p id="nota"></p>
+						<script type="text/javascript">
+						var butontext = function () {
+							if (document.getElementById("butonnota").innerHTML=="Nota") 
+								{
+							getElementById('nota').innerHTML='Consider datele personale ca fiind confidentiale, prin urmare am utilizat date fictive pentru aceasta pagina';
+							document.getElementById("butonnota").innerHTML="Ascunde nota";
+								}
+							else    {
+								getElementById('nota').innerHTML='';
+							document.getElementById("butonnota").innerHTML="Nota";	
+								}
+									    }
+						</script>
 						
 				<table border="1" cellpadding="40">
 					<tr>
