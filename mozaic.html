@@ -91,11 +91,14 @@
 					</tr>
 				</table>
 					<button type="button" >
-					<p id="demo"></p>
-
+					<p id="total"></p>
 					<script>
-					var x = 100 + 50;
-					document.getElementById("demo").innerHTML = x;
+					var cantitati = document.getElementsByClassName("cantitate");
+					var total = cantitati[0].innerHTML + cantitati[1].innerHTML +cantitati[2].innerHTML +cantitati[3].innerHTML +cantitati[4].innerHTML;
+				
+
+					document.getElementById("total").innerHTML = x;
+					
 					</script>
 				</div>
 			</td>
