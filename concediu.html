@@ -64,7 +64,20 @@
 						<td>
 							<h3>Munchen</h3>
 							<br/>
-								<img class="concediu" src="munich.jpg" alt="Munchen">
+								<img id="imageMunich" class="concediu" src="munich.jpg" alt="Munchen" onclick="changeImageMunich()">
+							<script language="javascript">
+								function changeImageMunich() {
+
+									if (document.getElementById("imageMunich").src.indexOf("munich.jpg") > 0) 
+									{
+										document.getElementById("imageMunich").src = "munich2.jpg";
+									}
+									else 
+									{
+										document.getElementById("imageMunich").src = "munich.jpg";
+									}
+								}
+							</script>
 							<p>
 								Munchen este capitala regiunii Bavaria si relativ aproape situat de maiestosii munti Alpi. Este un oras primitor,
 								cu viata intensa, plin de atractii de la muzee faimoase, biserici, teatre, arhitectura la aleile cu magazine 
@@ -77,7 +90,20 @@
 						<td>
 							<h3>Alpii Bavarezi</h3>
 							<br/>
-								<img class="concediu" src="garmisch.jpg" alt="Garmisch-Partenkirchen">
+								<img id="imageAlpi" class="concediu" src="garmisch.jpg" alt="Garmisch-Partenkirchen" onclick="changeImageAlpi()">
+								<script language="javascript">
+									function changeImageAlpi() {
+
+										if (document.getElementById("imageAlpi").src.indexOf("garmisch.jpg") > 0) 
+										{
+											document.getElementById("imageAlpi").src = "garmisch2.jpg";
+										}
+										else 
+										{
+											document.getElementById("imageAlpi").src = "garmisch.jpg";
+										}
+									}
+								</script>
 							<p>
 								Un loc deosebit care merita vizitat macar o data in viata. Un loc care iti taie rasuflarea. 
 								Din localitatea Garmisch-Partenkirchen se pot efectua drumetii cel mai inalt varf Zugspitze. Peisaje foarte frumoase
@@ -90,7 +116,20 @@
 						<td>
 							<h3>Castelul Neuschwanstein</h3>
 							<br/>
-								<img class="concediu" src="castle.jpg" alt="Castelul Neuschwanstein">
+								<img id="imageCastle" class="concediu" src="castle.jpg" alt="Castelul Neuschwanstein"  onclick="changeImageCastle()">
+								<script language="javascript">
+									function changeImageCastle() {
+
+										if (document.getElementById("imageCastle").src.indexOf("castle.jpg") > 0) 
+										{
+											document.getElementById("imageCastle").src = "castle2.jpg";
+										}
+										else 
+										{
+											document.getElementById("imageCastle").src = "castle.jpg";
+										}
+									}
+								</script>
 							<p>
 								Castelul Neuschwanstein, binecunoscut si din animatiile Disney, castelul din poveste, a fost construit
 								la cerinta regelui Ludwig al II-lea. Castelul a constituit refugiul personal al regelui. Dupa moartea sa, castelul
