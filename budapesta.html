@@ -13,7 +13,13 @@
 <div id="fundal"> 
 <a href="http://mmp35.github.io/edithomework/galeriefoto.html">Inapoi la galerie</a>
 
-				<center><h1><i>Budapesta</i></h1></center>
+				<center>
+					<h1><i>Budapesta</i></h1>
+					<h4>Numar poze: <label id="nrPoze"></label><h4>
+
+				</center>
+
+				
 				
 					 <p class="denumire">Panorama Budapesta ziua</p>
 					 <img class="oras" src="/edithomework/Pictures/Budapesta/Image00001.jpg" alt="Budapesta">
@@ -54,7 +60,9 @@
 
 
 <p align="center">&copy; pallm 2015</p>
-
+<script type="text/javascript">
+	document.getElementById('nrPoze').innerHTML = document.getElementsByClassName('oras').length;
+</script>
 </body>
 
 </html>
