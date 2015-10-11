@@ -90,15 +90,14 @@
 						<td class="cantitate" bgcolor="#FFA500">250</td>
 					</tr>
 				</table>
-					<button type="button" >
+					<button type="button" onclick="calculeaza()">Calculeaza total cantitati</button>
 					<p id="total"></p>
 					<script>
-					var cantitati = document.getElementsByClassName("cantitate");
-					var total = cantitati[0].innerHTML + cantitati[1].innerHTML +cantitati[2].innerHTML +cantitati[3].innerHTML +cantitati[4].innerHTML;
-				
-
-					document.getElementById("total").innerHTML = x;
-					
+					var calculeaza = function() {
+						var cantitati = document.getElementsByClassName("cantitate");
+						var total = cantitati[0].innerHTML + cantitati[1].innerHTML +cantitati[2].innerHTML +cantitati[3].innerHTML +cantitati[4].innerHTML;
+						document.getElementById("total").innerHTML = total;
+					}
 					</script>
 				</div>
 			</td>
