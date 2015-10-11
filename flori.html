@@ -50,7 +50,7 @@
 						<div class="flori">
 							<font style="color: #A32900; text-align: left;"><b>Trandafirul</b></font>
 							<img src="trandafirul.jpg" alt="Trandafirul">
-								<p>
+								<p id="textTrandafir">
 							Trandafirul a fost intotdeauna apreciat pentru frumusetea sa. Vecii greci si romani au vazut in trandafir 
 							simbolul iubirii si astfel l-au asociat cu zeitele protectoare Afrodita respectiv Venus. De altfel stim si 
 							noi ca trandafirul rosu exprima pasiunea si sunt oferiti doar celei iubite. Dar trandafirul nu este doar 
@@ -59,6 +59,14 @@
 							<br/>
 							Mai multe informatii gasiti aici: <a href="http://decostyle.mayra.ro/flori/arbori-si-arbusti/trandafirul-caracteristici-generale/361/" title="Decostyle" target="_blank">Trandafirul</a>
 								</p>
+								<br />
+								<button onclick="calcTrandafir()">Calculeaza numar caractere</button>
+								<label id="nrCaractereTrandafir"></label>
+								<script type="text/javascript">
+									function calcTrandafir(){
+										document.getElementById('nrCaractereTrandafir').innerHTML = document.getElementById('textTrandafir').innerHTML.length;
+									}
+								</script>
 						</div>
 						<div class="flori">
 							<font style="color: #A32900; text-align: left;"><b>Laleaua</b></font>
