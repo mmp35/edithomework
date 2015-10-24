@@ -39,8 +39,7 @@ p {
     font-style: normal;
     color: #291400;
     text-align: justify;
-    text-indent: 40px;
-    padding: 5px 25px 5px 5px;
+    padding: 0px 25px 5px 5px;
 }
 img {
     width: 200px;
