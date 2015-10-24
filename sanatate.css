@@ -3,7 +3,7 @@
     padding: 20px;
     border: none;
     margin: 0 auto;
-    background-color: #FFEB99;
+    background-color: #DBFFB8;
     box-shadow: 5px 5px 5px #999999;
 }
 a:link    {
@@ -44,7 +44,7 @@ p {
 #browser {
     box-shadow: 5px 5px 5px #999999;
     height: 25px;
-    background-color: #FFFFB8; 
+    background-color: #FFE0A3; 
 }
 img {
     width: 200px;
