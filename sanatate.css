@@ -48,12 +48,13 @@ p {
     background-color: #669900; 
 }
 #fundalimagini {
-    background-image: mar.jpg;
+    background-image: url("mar.jpg");
     background-repeat:repeat-y;
 }
 
-fundalimagini.img {
+#fundalimagini.img {
     width: 100px;
     height: 100px;
+    horizontal-align: left;
 }
 
