@@ -3,7 +3,7 @@
     padding: 20px;
     border: none;
     margin: 0 auto;
-    background-color: #E0F0B2;
+    background-color: #e0f0b2;
     box-shadow: 5px 5px 5px #999999;
 }
 a:link    {
@@ -38,23 +38,12 @@ p {
     font-size: 1em;
     font-style: normal;
     text-align: justify;
-    padding: 0px 25px 5px 5px;
-}
-#browser {
-    vertical-align: top;
-    color: #FFFFFF;
-    box-shadow: 5px 5px 5px #999999;
-    height: 25px;
-    background-color: #669900; 
+    padding: 0px 25px 5px 1px;
 }
 #fundalimagini {
-    background-image: url("mar.jpg");
+    background-image: url("vegies.jpg");
     background-repeat:repeat-y;
+	padding-left:120px;
 }
 
-#fundalimagini.img {
-    width: 100px;
-    height: 100px;
-    horizontal-align: left;
-}
 
