@@ -5,7 +5,7 @@
 <head>
 	<title>Webdesign
 	</title>
-	<link rel="stylesheet" type="text/css" href="sanatate.css" />
+	<link rel="stylesheet" type="text/css" href="nutritie.css" />
 </head>
 
 <body onload="vbrowser()" bgcolor="#FFFFFF" link="#0000CC" vlink="#47008F" alink="#FFFFFF">
@@ -39,10 +39,10 @@
 						<th><a href="galeriefoto.html">Galerie foto</a></th>
 					</tr>
 									<tr bgcolor="#000066">
-						<th><a href="sanatate.html"><font color="#FFFFFF">Sanatate</font></a></th>
+						<th><a href="nutritie.html"><font color="#FFFFFF">Nutritie</font></a></th>
 					</tr>
 							<tr>
-						<th><a href="animale.html">Animale</a></th>
+						<th><a href="miscare.html">Miscare</a></th>
 					</tr>
 					<tr>
 						<th><a href="contact.html">Contact</a></th>
@@ -94,20 +94,43 @@
 					</td>
 				</tr>
 				<tr>
-					<td>
-					</td>
-					<td>
-					</td>
-					<td>
+					<script type="text/javascript">
+						function aratatext(){
+							document.getElementById('imctext').innerHTML = "Indicele de masa corporala - IMC - este un indicator oficial de calculare a greutatii corporale ideale, pentru o inaltime data. In primul rand, indicele de masa corporala ajuta la stabilirea grupei de greutate in care se incadreaza o persoana - gradul de obezitate. De asemenea, indicele de masa corporala poate fi folosit pentru calcularea numarului de kilograme pe care o persoana trebuie sa le piarda sau sa le castige, pentru a ajunge la greutatea ideala, pentru inaltimea sa.";
+						}
+					</script>
+					<td colspan="3" onmouseover="aratatext()">
+					<center><h3><u>Calculator indice masa corporala</u></h3></center>
+					<p id="imctext"></p>
 					</td>
 				</tr>
 				<tr>
-					<td>
+					<td colspan="3">
+					<input type="Text" id="greutate" size="6"> Greutate (in kilograme) 
+					<br><br>
+					<input type="Text" id="inaltime" size="6"> Inaltime (in centimetri)
+					<br><br>
+					<input type="Text" id="IMC" size="4">   
+					<input type="button" style="font-size: 8pt" value="Calculeaza IMC" onclick="calculeazaIMC()" name="button">
 					</td>
-					<td>
-					</td>
-					<td>
-					</td>
+					<script type="text/javascript">
+
+						function  calculeazaIMC() {
+						  var greutate = document.getElementById('greutate').value
+						  var inaltime = document.getElementById('inaltime').value
+						  if (greutate == "") {
+							alert("Va rog introduceti greutatea.");
+							return;
+						  }
+						  if (inaltime == ""){ 
+							alert("Va rog introduceti inaltimea.");
+							return;
+						  }
+						 
+						  var IMC = (greutate  / (inaltime * inaltime)) * 10000;
+						  document.getElementById('IMC').value=IMC.toFixed(2);
+						}
+					</script>
 				</tr>
 			</table>
 			
