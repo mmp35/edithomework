@@ -43,9 +43,10 @@ p {
 }
 #browser {
     vertical-align: top;
+    color: #ffffff;
     box-shadow: 5px 5px 5px #999999;
     height: 25px;
-    background-color: #FFE0A3; 
+    background-color: #669900; 
 }
 img {
     width: 200px;
