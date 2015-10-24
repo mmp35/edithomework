@@ -48,6 +48,11 @@ p {
     height: 25px;
     background-color: #669900; 
 }
+#fundalimagini {
+    background-image: mar.jpg;
+    background-repeat:repeat-x;
+    background-repeat:repeat-y;
+}
 img {
     width: 200px;
     height: 200px;
