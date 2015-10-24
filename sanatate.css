@@ -30,7 +30,7 @@ a:active  {
 h1 {
     color: #A32900;
     text-align: center;
-    margin-top:0;
+    margin-top: 10px;
     text-shadow: 1px 1px 1px #333333;
 }
 p {
