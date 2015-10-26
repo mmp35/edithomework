@@ -62,7 +62,7 @@
 				<center><h1><i>O viata sanatoasa</i></h1></center>
 			<table>
 				<tr>
-					<td colspan="3"><center><h3><u>Nutritie</u></h3></center></td>
+					<td colspan="3"><center><h3><i>Nutritie</u></i></center></td>
 				</tr>
 				<tr>
 					<td style="width: 250px; vertical-align: top;">
@@ -95,19 +95,21 @@
 					</td>
 				</tr>
 				<tr>
-					<script type="text/javascript">
-					document.getElementById("bmi").onmouseover = function() {aratatext()};
-					document.getElementById("bmi").onmouseout = function() {ascundetext()};
-
-						function aratatext(){
-							document.getElementById("imctext").style.visibility = 'visible';
-						function ascundetext(){
-							document.getElementById("imctext").style.visibility = 'hidden';
-						}
-					</script>
 					<td colspan="3">
-					<center><h3 id="bmi"><u>Calculator indice masa corporala</u></h3></center>
-					<p id="imctext">Indicele de masa corporala este un indicator de calculare a greutatii corporale ideale, pentru o inaltime data. IMC ajuta la stabilirea categoriei de greutate in care se incadreaza o persoana.
+					<center><h3 id="cimc"><i>Calculator indice masa corporala</i></h3></center>
+					<script>
+					document.getElementById("cimc").onmouseover = function() {textrosu()};
+					document.getElementById("cimc").onmouseout = function() {textnegru()};
+					
+					function textrosu() {
+					    document.getElementById("cimc").style.color = "red";
+					}
+					
+					function textnegru() {
+					    document.getElementById("cimc").style.color = "black";
+					}
+					</script>
+					<p>Indicele de masa corporala este un indicator de calculare a greutatii corporale ideale, pentru o inaltime data. IMC ajuta la stabilirea categoriei de greutate in care se incadreaza o persoana.
 					</p>
 					</td>
 				</tr>
