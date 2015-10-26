@@ -62,7 +62,20 @@
 				<center><h1><i>O viata sanatoasa</i></h1></center>
 			<table>
 				<tr>
-					<td colspan="3"><center><h3><i>Nutritie</u></i></center></td>
+					<td colspan="3"><center><h3 id="nutri"><i>Nutritie</u></i></center>
+					<script>
+					document.getElementById("nutri").onmouseover = function() {textrosu()};
+					document.getElementById("nutri").onmouseout = function() {textnegru()};
+					
+					function textrosu() {
+					    document.getElementById("nutri").style.visibility = "visible";
+					}
+					
+					function textnegru() {
+					    document.getElementById("nutri").style.visibility = "hidden";
+					}
+					</script>
+					</td>
 				</tr>
 				<tr>
 					<td style="width: 250px; vertical-align: top;">
@@ -109,7 +122,7 @@
 					    document.getElementById("cimc").style.color = "black";
 					}
 					</script>
-					<p>Indicele de masa corporala este un indicator de calculare a greutatii corporale ideale, pentru o inaltime data. IMC ajuta la stabilirea categoriei de greutate in care se incadreaza o persoana.
+					<p>Indicele de masa corporala este un indicator de calculare a greutatii corporale ideale, in functie de greutatea si inaltimea persoanei. IMC ajuta la stabilirea categoriei de greutate in care se incadreaza o persoana.
 					</p>
 					</td>
 				</tr>
