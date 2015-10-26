@@ -87,7 +87,8 @@
 								<td style="width: 250px; vertical-align: top;">
 						<h4>Lipidele</h4>
 							<p>
-							Servesc functii importante in organism: depozit mare si concentrat de energie, protejeaza organismul, transportor pentru vitaminele liposolubile (A, D, E K), principal distribuitor de acizi grasi esentiali.
+							Servesc functii importante in organism: depozit mare si concentrat de energie, protejeaza organismul, transportor pentru vitaminele 
+							liposolubile (A, D, E K), principal distribuitor de acizi grasi esentiali.
 							1 gram de grasimi contine aproximativ 9 calorii. 
 							Principale surse: carne, oua, produse lactate integrale si uleiuri (nuci, alune, seminte floarea soarelui), masline.
 							</p>
@@ -95,6 +96,7 @@
 				</tr>
 				<tr>
 					<script type="text/javascript">
+					<#imc onmouseover="aratatext()" onmouseout="ascundetext()">
 						function aratatext(){
 							document.getElementById('imctext').innerHTML = "Indicele de masa corporala - IMC - este un indicator oficial de calculare a 
 							greutatii corporale ideale, pentru o inaltime data. In primul rand, indicele de masa corporala ajuta la stabilirea grupei 
@@ -102,9 +104,12 @@
 							pentru calcularea numarului de kilograme pe care o persoana trebuie sa le piarda sau sa le castige, pentru a ajunge la greutatea 
 							ideala, pentru inaltimea sa.";
 						}
+						function ascundetext(){
+							document.getElementById('imctext').innerHTML ="";
+						}
 					</script>
 					<td colspan="3" onmouseover="aratatext()">
-					<center><h3><u>Calculator indice masa corporala</u></h3></center>
+					<center><h3 id="imc"><u>Calculator indice masa corporala</u></h3></center>
 					<p id="imctext"></p>
 					</td>
 				</tr>
