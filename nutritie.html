@@ -100,15 +100,15 @@
 					document.getElementById("bmi").onmouseout = function() {ascundetext()};
 
 						function aratatext(){
-							document.getElementById("imctext").innerHTML = "Indicele de masa corporala este un indicator de calculare a greutatii corporale ideale, pentru o inaltime data. IMC ajuta la stabilirea categoriei de greutate in care se incadreaza o persoana.";
-						}
+							document.getElementById("imctext").style.visibility = 'visible';
 						function ascundetext(){
-							document.getElementById("imctext").style.visibility="hidden";
+							document.getElementById("imctext").style.visibility = 'hidden';
 						}
 					</script>
 					<td colspan="3" onmouseover="aratatext()">
 					<center><h3 id="bmi"><u>Calculator indice masa corporala</u></h3></center>
-					<p id="imctext"></p>
+					<p id="imctext">Indicele de masa corporala este un indicator de calculare a greutatii corporale ideale, pentru o inaltime data. IMC ajuta la stabilirea categoriei de greutate in care se incadreaza o persoana.
+					</p>
 					</td>
 				</tr>
 				<tr>
