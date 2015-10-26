@@ -96,7 +96,9 @@
 				</tr>
 				<tr>
 					<script type="text/javascript">
-					<h3 onmouseover="aratatext()" onmouseout="ascundetext()">
+					document.getElementById("imc").onmouseover = function() {aratatext()};
+					document.getElementById("imc").onmouseout = function() {ascundetext()};
+
 						function aratatext(){
 							document.getElementById('imctext').innerHTML = "Indicele de masa corporala - IMC - este un indicator oficial de calculare a 
 							greutatii corporale ideale, pentru o inaltime data. In primul rand, indicele de masa corporala ajuta la stabilirea grupei 
