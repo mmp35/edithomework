@@ -40,6 +40,7 @@ p {
     text-align: justify;
     padding: 0px 25px 5px 0px;
     vertical-align: top;
+    margin-top: 0px;
 }
 .poze {
     width: 120px;
