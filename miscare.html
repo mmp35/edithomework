@@ -104,16 +104,16 @@
 					<td colspan="3">
 					<center><h3 id="crmb"><i>Calculator Rata Metabolica Bazala</i></h3></center>
 					<script type="text/javascript">
-					document.getElementById("crmb").onmouseover = function() {textrosu()};
-					document.getElementById("crmb").onmouseout = function() {textnegru()};
-					
-					function textrosu() {
-					    document.getElementById("crmb").style.color = "red";
-					}
-					
-					function textnegru() {
-					    document.getElementById("crmb").style.color = "black";
-					}
+						document.getElementById("crmb").onmouseover = function() {textrosu()};
+						document.getElementById("crmb").onmouseout = function() {textnegru()};
+						
+						function textrosu() {
+						    document.getElementById("crmb").style.color = "red";
+						}
+						
+						function textnegru() {
+						    document.getElementById("crmb").style.color = "black";
+						}
 					</script>
 					<p> Rata metabolica bazala este este rata minima de consum energetic necesar vietii. Este cantitea minima de energie exprimata in calorii de care corpul nostru are nevoie sa se mentina in viata, in conditii de repaus fizic. </p>
 					<!-- Formula: 66 + (13,7 x greutatea in kg) + (5 x inaltimea in cm) – (6,8 x varsta in ani)-->
@@ -136,18 +136,18 @@
 					</td>
 					<script type="text/javascript">
 						function  calculeazaIRMB() {
-						  var varsta = document.getElementById('varsta').value	
-						  var greutate = document.getElementById('greutate').value
-						  var inaltime = document.getElementById('inaltime').value
-						   if (varsta == "") {
+						var varsta = document.getElementById('varsta').value	
+						var greutate = document.getElementById('greutate').value
+						var inaltime = document.getElementById('inaltime').value
+						if (varsta == "") {
 							alert("Va rog introduceti varsta.");
 							return;
 						  }
-						  if (greutate == "") {
+						if (greutate == "") {
 							alert("Va rog introduceti greutatea.");
 							return;
 						  }
-						  if (inaltime == ""){ 
+						if (inaltime == ""){ 
 							alert("Va rog introduceti inaltimea.");
 							return;
 						  }
