@@ -42,7 +42,7 @@ p {
 }
 #fundalimagini {
     background-image: url("miscare.jpg");
-    background-repeat: repeat-y;
+    background-repeat: repeat-x;
     padding-left: 120px;
 }
 
