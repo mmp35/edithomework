@@ -102,26 +102,30 @@
 					}
 					</script>
 					<p> Rata metabolica bazala este este rata minima de consum energetic compatibila cu viata. Este cantatea minima de energie (exprimata in calorii) de care corpul nostru are nevoie sa se mentina in viata, in conditii de repaus fizic. </p>
-					<pre>
-						Formule de calcul:
-						Femei: 655 + (9,6 x greutatea in kg) + (1,8 x inaltimea in cm) – (4,7 x varsta in ani)
-    						Barbati: 66 + (13,7 x greutatea in kg) + (5 x inaltimea in cm) – (6,8 x varsta in ani)
+					// Barbati: 66 + (13,7 x greutatea in kg) + (5 x inaltimea in cm) – (6,8 x varsta in ani)
 					</pre>
 					</td>
 				</tr>
 				<tr>
 					<td colspan="3">
+					<input type="Text" id="varsta" size="6"> Varsta (in ani) 
+					<br><br>	
 					<input type="Text" id="greutate" size="6"> Greutate (in kilograme) 
 					<br><br>
 					<input type="Text" id="inaltime" size="6"> Inaltime (in centimetri)
 					<br><br>
-					<input type="Text" id="IMC" size="4">   
-					<input type="button" style="font-size: 8pt" value="Calculeaza IMC" onclick="calculeazaIMC()" name="button">
+					<input type="Text" id="IRMB" size="6">   
+					<input type="button" style="font-size: 8pt" value="Calculeaza IRMB" onclick="calculeazaIRMB()" name="button">
 					</td>
 					<script type="text/javascript">
-						function  calculeazaIMC() {
+						function  calculeazaIRMB() {
+						  var varsta = document.getElementById('varsta').value	
 						  var greutate = document.getElementById('greutate').value
 						  var inaltime = document.getElementById('inaltime').value
+						   if (varsta == "") {
+							alert("Va rog introduceti varsta.");
+							return;
+						  }
 						  if (greutate == "") {
 							alert("Va rog introduceti greutatea.");
 							return;
@@ -131,8 +135,8 @@
 							return;
 						  }
 						 
-						  var IMC = (greutate  / (inaltime * inaltime)) * 10000;
-						  document.getElementById('IMC').value=IMC.toFixed(2);
+						  var IRMB = 66 + (13,7 x greutate) + (5 x inaltime) – (6,8 x varsta);
+						  document.getElementById('IRMB').value=IRMB.toFixed(2);
 						}
 					</script>
 				</tr>
