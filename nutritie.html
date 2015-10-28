@@ -135,7 +135,7 @@
 					<br><br>
 					<input type="Text" id="IMC" size="4">   
 					<input type="button" style="font-size: 8pt" value="Calculeaza IMC" onclick="calculeazaIMC()" name="button">
-					</td>
+					
 					<script type="text/javascript">
 
 						function  calculeazaIMC() {
@@ -154,6 +154,19 @@
 						  document.getElementById('IMC').value=IMC.toFixed(2);
 						}
 					</script>
+					</td>
+					<td>
+						<pre>Interpretare rezultat
+						
+						Subponderal: <= 18,49 
+						Greutate normala: 18,50 - 24,99
+						Supraponderal: 25,00 - 29,99 
+						Obezitate (gradul I): 30,00 - 34,99 
+						Obezitate (gradul II): 35,00 - 39,99 
+						Obezitate morbida: >= 40,00
+
+						</pre>
+					</td>
 				</tr>
 			</table>
 			
