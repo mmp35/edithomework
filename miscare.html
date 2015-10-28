@@ -67,7 +67,7 @@
 					</td>
 					<td style="width: 270px; vertical-align: top;">
 						<center><b>Exercitiile anaerobe</b></center><br>
-						<img id="sala" class="poze" src="anaerobex.jpg" alt="exercitii anaerobe" style="cursor: pointer;" onclick=schimbaimagine()>
+						<img id="anaerobex" class="poze" src="anaerobex.jpg" alt="exercitii anaerobe" style="cursor: pointer;" onclick=schimbaimagine()>
 							<p>
 							Exerciţiul de tip anaerob nu foloseste oxigenul drept combustibil, ci glucoza prezenta sub forma de depzite de glicogen in muschi 
 							si ficat. Antrenamentul anaerob implica in general ridicarea de greutati, testarea rezistentei si intervale de intensitate ridicata. 
@@ -86,17 +86,15 @@
 							sa dezvolte rupturi musculare, intinderi musculare sau tendinite.
 							</p>
 					</td>
-					<script type"text/javascript">
-						var imagini = ["cardio.jpg", "anaerobex.jpg", "stretching.jpg"]
-						var imaginitiala = 0;
-						function schimbaimagine(){
-						imaginitiala = imaginitiala + 1;
-						if (imaginitiala > 2) imaginitiala = 0;
-						document.getElementById("cardio").src = imagini[imaginitiala];
-						document.getElementById("sala").src = imagini[imaginitiala];
-						document.getElementById("stretching").src = imagini[imaginitiala];
-						    }
-					</script>
+				<script type"text/javascript">
+    					var imagini = ["cardio.jpg", "anaerobex.jpg", "stretching.jpg"]
+    					var imagineaCurenta = 0;
+					function schimbaimagine(poza){
+					 imagineaCurenta = imagineaCurenta + 1;
+      					if (imagineaCurenta > 2) imagineaCurenta = 0;
+      					poza.src = imagini[imagineaCurenta];
+				 }
+  				</script>
 						
 				</tr>
 				<tr>
