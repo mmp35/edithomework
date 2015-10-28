@@ -45,5 +45,8 @@ p {
     background-repeat: repeat-y;
     padding-left: 120px;
 }
-
+span {
+    font-weight: bold;
+    text-align: center;
+}
 
