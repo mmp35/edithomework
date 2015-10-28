@@ -39,6 +39,7 @@ p {
     font-style: normal;
     text-align: justify;
     padding: 0px 25px 5px 1px;
+    margin-top: 0px;
 }
 #fundalimagini {
     background-image: url("vegies.jpg");
