@@ -65,16 +65,15 @@
 					<td colspan="3">
 						<center><h3 id="nutri"><i>Nutritie</u></i></center>
 						<script type="text/javascript">
-							document.getElementById("nutri").onmouseover = function() {yellow()};
-							document.getElementById("nutri").onmouseout = function() {black()};
+							document.getElementById("nutri").onmouseover = function() {bigtext()};
+							document.getElementById("nutri").onmouseout = function() {normaltext()};
 						
-						function yellow() {
-						    	document.getElementById("nutri").style.color = "yellow";
+						function bigtext() {
+						    	document.getElementById("nutri").this.style.fontSize="36pt";
 						}
 						
-						function black() {
-						   	document.getElementById("nutri").style.color = "black";
-						}
+						function normaltext() {
+						   	document.getElementById("nutri").this.style.fontSize="24pt";
 						</script>
 					</td>
 				</tr>
