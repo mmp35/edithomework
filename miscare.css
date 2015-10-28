@@ -40,6 +40,10 @@ p {
     text-align: justify;
     padding: 0px 25px 5px 1px;
 }
-
+#bimagine {
+    background-image: url(miscare.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
 
 
