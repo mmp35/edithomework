@@ -63,17 +63,11 @@
 			<table>
 				<tr>
 					<td colspan="3">
-						<center><h3 id="nutri"><i>Nutritie</i></h3></center>
+						<center><h3 id="nutri" style="cursor: pointer;" onclick=bigtext()><i>Nutritie</i></h3></center>
 						<script type="text/javascript">
-							document.getElementById("nutri").onmouseover = function() {bigtext()};
-							document.getElementById("nutri").onmouseout = function() {normaltext()};
-						
-						function bigtext() {
-						    	document.getElementById("nutri").style.fontSize="40";
-						}
-						
-						function normaltext() {
-						   	document.getElementById("nutri").style.fontSize="24";
+							function bigtext() {
+							document.getElementById("nutri").style.fontSize = "xx-large";
+							}
 						</script>
 					</td>
 				</tr>
