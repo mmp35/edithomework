@@ -51,20 +51,8 @@ h1 {
 
 div.rotateIn {
     animation-name: rotateIn;
-    animation-iteration-count: infinite;
+    animation:spin 4s linear infinite;
 }
-
-@keyframes rotateIn {
-  from {
-    transform-origin: center;
-    transform: rotate3d(0, 0, 1, -200deg);
-    opacity: 0;
-  }
-
-  to {
-    transform-origin: center;
-    transform: none;
-    opacity: 1;
-  }
-}
-
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
