@@ -102,9 +102,9 @@ transform: rotate(360deg);
 
 
 .textcolor {
-    animation:         textcolor 5s infinite;
-	-moz-animation:    textcolor 5s infinite; 
-	-webkit-animation: textcolor 5s infinite; 
+    animation:         textcolor 8s infinite;
+	-moz-animation:    textcolor 8s infinite; 
+	-webkit-animation: textcolor 8s infinite; 
 }
 
 @keyframes textcolor { 
@@ -113,7 +113,7 @@ transform: rotate(360deg);
 		color: #FFFFFF;
 		}
 	50%  { 
-		background-color: #FF8914; 
+		background-color: #FFA1A1; 
 		
 	}
 	100% { 
@@ -127,7 +127,7 @@ transform: rotate(360deg);
 		color: #FFFFFF;
 	}
 	50%  { 
-		background-color: #FF8914; 
+		background-color: #FFA1A1; 
 		
 	}
 	100% { 
@@ -141,7 +141,7 @@ transform: rotate(360deg);
 		color: #FFFFFF;
 	}
 	50%  { 
-		background-color: #FF8914; 
+		background-color: #FFA1A1; 
 		
 	}
 	100% { 
