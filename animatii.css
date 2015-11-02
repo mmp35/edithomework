@@ -28,36 +28,27 @@ a:active  {
     text-decoration:underline;
 }
 h1 {
-    color: #A32900;
-    text-align: center;
-    margin-top:0;
+    color: red;
     text-shadow: 1px 1px 1px #333333;
+    position: relative;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 4s; 
+    -webkit-animation-iteration-count: 3; 
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
 }
-div.flori {
-    width: 700px;
-    height: 220px;
-    background-color: #FFFFAD;
-    border: none;
-    margin: 20px;
-    padding: 20px;
-    box-shadow: 5px 5px 5px #999999; 
-}
-p {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 1em;
-    font-style: normal;
-    color: #291400;
-    text-align: justify;
-    text-indent: 40px;
-    padding: 2px 225px 5px 5px;
-}
-img {
-    width: 200px;
-    height: 200px;
-    float: right;
-}
-ul {
-    list-style-type: disc;
-    font-style: italic;
-    padding: 5px 225px 5px 15px;
+@keyframes example {
+    0%   {
+        color:  red; 
+        left:   0px; 
+        top:    0px;}
+    25%  {
+        color:  yellow; 
+        left:   200px; 
+        top:    0px;}
+    100% {
+        color:  red; 
+        left:   0px; 
+        top:    0px;}
 }
