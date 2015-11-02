@@ -31,14 +31,14 @@ h1 {
     color: red;
     text-shadow: 1px 1px 1px #333333;
     position: relative;
-    -webkit-animation-name: example; 
+    -webkit-animation-name: antitlu; 
     -webkit-animation-duration: 4s; 
     -webkit-animation-iteration-count: 3; 
-    animation-name: example;
+    animation-name: antitlu;
     animation-duration: 4s;
     animation-iteration-count: 3;
 }
-@keyframes example {
+@keyframes antitlu {
     0%   {
         color:  red; 
         left:   0px; 
