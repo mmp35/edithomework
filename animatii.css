@@ -101,3 +101,26 @@ transform: rotate(360deg);
 }
 
 
+.textcolor {
+    animation:         textcolor 5s infinite;
+	-moz-animation:    textcolor 5s infinite; 
+	-webkit-animation: textcolor 5s infinite; 
+}
+
+@keyframes textcolor { 
+	0%   { background-color: green; }
+	50%  { background-color: yellow; }
+	100% { background-color: #efefef; }
+}
+@-moz-keyframes textcolor {
+	0%   { background-color: green; }
+	50%  { background-color: yellow; }
+	100% { background-color: #efefef; }
+}
+@-webkit-keyframes textcolor { 
+	0%   { background-color: green; }
+	50%  { background-color: yellow; }
+	100% { background-color: #efefef; }
+}
+
+
