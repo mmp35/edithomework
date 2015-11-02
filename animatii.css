@@ -108,19 +108,46 @@ transform: rotate(360deg);
 }
 
 @keyframes textcolor { 
-	0%   { background-color: green; }
-	50%  { background-color: yellow; }
-	100% { background-color: #efefef; }
+	0%   { 
+		background-color: #993333;
+		color: #FFFFFF;
+		}
+	50%  { 
+		background-color: #FF8914; 
+		
+	}
+	100% { 
+		background-color: #FFFFCC; 
+		
+	}
 }
 @-moz-keyframes textcolor {
-	0%   { background-color: green; }
-	50%  { background-color: yellow; }
-	100% { background-color: #efefef; }
+	0%   { 
+		background-color: #993333; 
+		color: #FFFFFF;
+	}
+	50%  { 
+		background-color: #FF8914; 
+		
+	}
+	100% { 
+		background-color: #FFFFCC; 
+		
+	}
 }
 @-webkit-keyframes textcolor { 
-	0%   { background-color: green; }
-	50%  { background-color: yellow; }
-	100% { background-color: #efefef; }
+	0%   { 
+		background-color: #993333; 
+		color: #FFFFFF;
+	}
+	50%  { 
+		background-color: #FF8914; 
+		
+	}
+	100% { 
+		background-color: #FFFFCC; 
+		
+	}
 }
 
 
