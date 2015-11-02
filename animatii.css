@@ -29,11 +29,7 @@ a:active  {
 }
 h1 {
     color: red;
-    text-shadow: 1px 1px 1px #333333;
     position: relative;
-    -webkit-animation-name: antitlu; 
-    -webkit-animation-duration: 10s; 
-    -webkit-animation-iteration-count: 3; 
     animation-name: antitlu;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -53,24 +49,20 @@ h1 {
         top:    0px;}
 }
 
-.rotateIn {
-  -webkit-animation-name: rotateIn;
-  animation-name: rotateIn;
+div.rotateIn {
+    animation-name: rotateIn;
+    animation-iteration-count: infinite;
 }
 
 @keyframes rotateIn {
   from {
-    -webkit-transform-origin: center;
     transform-origin: center;
-    -webkit-transform: rotate3d(0, 0, 1, -200deg);
     transform: rotate3d(0, 0, 1, -200deg);
     opacity: 0;
   }
 
   to {
-    -webkit-transform-origin: center;
     transform-origin: center;
-    -webkit-transform: none;
     transform: none;
     opacity: 1;
   }
