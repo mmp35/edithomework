@@ -36,7 +36,7 @@ h1 {
     -webkit-animation-iteration-count: 3; 
     animation-name: antitlu;
     animation-duration: 10s;
-    animation-iteration-count: 10;
+    animation-iteration-count: infinite;
 }
 @keyframes antitlu {
     0%   {
@@ -51,4 +51,7 @@ h1 {
         color:  red; 
         left:   0px; 
         top:    0px;}
+}
+#pozafloare {
+    
 }
